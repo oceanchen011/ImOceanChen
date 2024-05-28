@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { motion, useTransform, useScroll } from 'framer-motion';
 import pfpImage from '../Dependencies/PFP.jpg';
-import { GoogleApiWrapper } from 'google-maps-react';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, MoveIn, MoveOut, Sticky, ZoomOut } from 'react-scroll-motion';
 import { FaHtml5, FaReact, FaCss3Alt, FaJava, FaPython, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import NavDropdown from 'react-bootstrap/NavDropdown';
